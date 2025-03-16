@@ -1,0 +1,11 @@
+input::placeholder {
+    color: #cccccc !important;
+  }
+
+  .loading-text {
+    color: #bbb;
+  }
+
+  .failed-fetch-text {
+    color: #bbb;
+  }
