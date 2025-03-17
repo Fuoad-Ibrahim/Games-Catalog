@@ -48,9 +48,13 @@ The backend folder with server.js is included in the project for reference on ho
 
 ## Screenshots
 
-- Home Page:
+### Home Page
+
   ![Home Page](./images/homepage.png)
-- Favorites Page:
+  
+### Favorites Page
   ![Favorites Page](./images/favpage.png)
-- Game Details:
+  
+### Game Details
+
   ![Game Details](./images/details.png)
