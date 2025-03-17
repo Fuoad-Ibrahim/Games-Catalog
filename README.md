@@ -1,4 +1,5 @@
 # Games Catalog
+![Last Commit](https://img.shields.io/github/last-commit/Fuoad-Ibrahim/games-catalog)
 
 ## Overview
 
