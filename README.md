@@ -1,12 +1,55 @@
-# React + Vite
+# Games Catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Games Catalog is a web application that allows users to browse popular video games and add them to their favorites. The app leverages the IGDB API to fetch game data and provides an intuitive user experience with smooth navigation and interactivity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application uses a backend Node.js proxy server deployed on Render.com to securely handle API requests and keep sensitive information hidden.
 
-## Expanding the ESLint configuration
+The backend folder with server.js is included in the project for reference on how the server works.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- **Game Browsing:** View a list of popular games with images, titles, and release dates.
+- **Favorite Management:** Add and remove games from your favorites list, which is maintained through the application state.
+- **Dynamic Search:** Search for games using keywords and display the results instantly.
+- **Efficient State Management:** Utilizes React Context API to manage global states (games and favorites) without prop drilling.
+- **Routing:** Implements client-side navigation using React Router.
+- **Proxy Server:** Uses a backend Node.js proxy to handle API requests and secure sensitive data.
+
+## Technologies Used
+
+- **React:** For building the interactive user interface.
+- **React Router:** For client-side routing and navigation.
+- **Context API:** For global state management (games and favorites).
+- **Node.js & Express:** For creating the proxy backend server.
+- **Bootstrap:** For responsive design and UI components.
+- **IGDB API:** To fetch game data and details.
+- **Render.com:** For hosting the backend server.
+
+## Installation
+
+1. Make sure you have **Node.js** (version 18.x or higher) installed on your system. You can download it from [Node.js Official Website](https://nodejs.org/).
+2. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/games-catalog.git
+   cd games-catalog
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the application:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and navigate to `http://localhost:3000` to view the app.
+
+## Screenshots
+
+- Home Page:
+  ![Home Page](./screenshots/home.png)
+- Favorites Page:
+  ![Favorites Page](./screenshots/favorites.png)
+- Game Details:
+  ![Game Details](./screenshots/details.png)

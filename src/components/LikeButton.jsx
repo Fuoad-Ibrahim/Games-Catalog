@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useFavoritesContext } from "../contexts/favoritesContext";
 import "../css/LikeButton.css"; // Move styles here
 

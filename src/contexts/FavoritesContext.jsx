@@ -1,4 +1,3 @@
-import Favorites from "../pages/Favorites";
 import {useState, createContext, useContext} from "react"
 
 
