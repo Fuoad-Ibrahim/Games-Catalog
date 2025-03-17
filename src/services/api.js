@@ -1,7 +1,6 @@
 export const getGames = async (query = "") => {
     // const url = `http://localhost:5000/api/games`; // For testing locally
     const url = 'https://games-catalog-backend.onrender.com/api/games';
-    console.log(`THIS IS THE URL: ${url}`)
 
     const options = {
         method: 'POST', // Use POST because your backend expects it
