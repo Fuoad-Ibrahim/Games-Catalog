@@ -1,0 +1,25 @@
+.no-favorites {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    color: #ddd;
+    flex-direction: column; /* Ensure the text is stacked vertically */
+}
+
+.no-favorites h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px; /* Space between h2 and p */
+}
+
+.no-favorites p {
+    font-size: 1.2rem;
+    color: #bbb;
+    margin-top: 0; /* Ensure no top margin is added */
+}
+
+.fav-heading {
+    text-align: center;
+    margin: 45px;
+}
