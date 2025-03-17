@@ -1,6 +1,6 @@
 export const getGames = async (query = "") => {
-    // const url = `http://localhost:5000/api/games`; // Your backend proxy URL
-    const url = 'https://games-catalog-backend-37b875dfac30.herokuapp.com/api/games';
+    // const url = `http://localhost:5000/api/games`; // For testing locally
+    const url = 'https://games-catalog-backend.onrender.com/api/games';
     console.log(`THIS IS THE URL: ${url}`)
 
     const options = {
